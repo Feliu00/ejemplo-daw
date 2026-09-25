@@ -18,7 +18,7 @@ public class Ejercicio16 {
         }else if(num2 > num1 && num2 > num3){
             System.out.println("El número más  grande es: " + num2);
         }else{
-            System.out.println("El número más grande es: " + num3);
+            System.out.printf("El número más grande es: %d",num3);
         }
     }
 }

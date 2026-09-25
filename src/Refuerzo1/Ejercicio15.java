@@ -13,6 +13,6 @@ public class Ejercicio15 {
         segundosrestantes = t % 3600;
         minutos = segundosrestantes / 60;
         segundos = segundosrestantes % 60;
-        System.out.println("El tiempo en formato 00:00:00 es: " + hora + ":" + minutos + ":" + segundos);
+        System.out.printf("El tiempo es %d:%d:%d " , hora, minutos, segundos);
     }
 }
